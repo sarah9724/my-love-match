@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .title-lg {
+    @apply text-4xl font-bold leading-tight;
+  }
+  
+  .title-md {
+    @apply text-3xl font-bold leading-tight;
+  }
+  
+  .title-sm {
+    @apply text-2xl font-bold leading-tight;
+  }
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
